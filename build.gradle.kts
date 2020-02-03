@@ -63,7 +63,7 @@ tasks {
         options.encoding = "UTF-8"
     }
     register<JavaExec>("download") {
-        dependsOn(":cache-client:build")
+        dependsOn("build")
 
         classpath = project.sourceSets.main.get().runtimeClasspath
         main = "net.runelite.cache.client.CacheClient"
