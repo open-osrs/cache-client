@@ -32,7 +32,7 @@ plugins {
 
 group = "com.openosrs"
 version = "1.0-SNAPSHOT"
-var rsversion = "191"
+var rsversion = "201"
 
 repositories {
     jcenter()
