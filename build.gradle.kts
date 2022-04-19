@@ -32,7 +32,7 @@ plugins {
 
 group = "com.openosrs"
 version = "1.0-SNAPSHOT"
-var rsversion = "191"
+var rsversion = "204"
 
 repositories {
     jcenter()
@@ -42,16 +42,16 @@ repositories {
 }
 
 dependencies {
-    annotationProcessor("org.projectlombok:lombok:1.18.10")
+    annotationProcessor("org.projectlombok:lombok:1.18.24")
 
-    compileOnly("org.projectlombok:lombok:1.18.10")
+    compileOnly("org.projectlombok:lombok:1.18.24")
 
-    implementation("com.google.guava:guava:28.2-jre")
-    implementation("org.slf4j:slf4j-simple:1.7.30")
-    implementation("io.netty:netty-all:4.1.45.Final")
+    implementation("com.google.guava:guava:31.1-jre")
+    implementation("org.slf4j:slf4j-simple:1.7.36")
+    implementation("io.netty:netty-all:4.1.76.Final")
     implementation("com.openosrs:protocol:1.0-SNAPSHOT")
     implementation("com.openosrs:protocol-api:1.0-SNAPSHOT")
-    implementation("com.openosrs:cache:187.0-SNAPSHOT")
+    implementation("com.openosrs:cache:188.1-SNAPSHOT")
 }
 
 configure<JavaPluginConvention> {
